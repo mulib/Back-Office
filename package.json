@@ -1,0 +1,29 @@
+{
+    "name": "lightapp_back_office",
+    "version": "1.0.0",
+    "description": "lightapp back office application ",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "start": "webpack-dev-server --open",
+        "prod": "webpack --config webpack.config.js --mode production"
+    },
+    "author": "Muli Bachar",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^10.0.0",
+        "css-loader": "^1.0.1",
+        "file-loader": "^2.0.0",
+        "mini-css-extract-plugin": "^0.4.4",
+        "node-sass": "^4.10.0",
+        "style-loader": "^0.23.1",
+        "ts-loader": "^5.3.0",
+        "typescript": "^3.1.6",
+        "webpack": "^4.0.0",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.10"
+    },
+    "dependencies": {
+        "@blueprintjs/core": "^3.9.0"
+    }
+}

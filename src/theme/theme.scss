@@ -1,0 +1,11 @@
+@import './variables';
+@import './icons/icons';
+@import './components/components';
+body {
+    font: $f1;
+    color: $c1;
+}
+
+.someImageExample {
+    @extend .logo;
+}
